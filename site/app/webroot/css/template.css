@@ -1,0 +1,87 @@
+*  {font-family: Gill Sans, sans-serif;}
+body {background:url(../img/bg.jpg);}
+h1 {background-image:url(../img/title.png); background-position:center; background-repeat:none; width:1000px; height:59px; margin:32px auto 24px;}
+a, a:visited {color:#fff; text-decoration:none;}
+a:hover {text-decoration:underline; color:#fff; cursor:hand;}
+
+#container-outer {width:1000px; margin:0 auto 20px; padding:10px; border-radius:10px; background:#ccc url(../img/bg-container.jpg);}
+#container-inner {background:#A30F2F; padding:22px; border-radius:10px; color:#fff; overflow:hidden;}
+
+/* Key facts */
+ul#key-facts {list-style:none; margin:-5px 0 20px; padding:0; font-size:20px; text-transform:uppercase; overflow:hidden;}
+ul#key-facts li {float:left; padding-top:5px;}
+ul#key-facts li#key-fact-tel {background:url(../img/telephone.png) left top no-repeat; height:37px; padding-left:42px;}
+ul#key-facts li#key-fact-hours {float:right; text-align:right;}
+.touch #key-fact-tel, #key-fact-tel a {color:#fff; text-decoration:none;}  /* for when link added by touch device*/
+
+/* Sidebar */
+#sidebar {width:292px; float:left; margin-left:32px;}
+#sidebar aside {border:1px solid #369; background:#fff; padding:10px; margin-bottom:12px;}
+#sidebar aside p {font-size:16px; color:#333;}
+#sidebar aside a {color:#333; text-decoration:none;}
+#sidebar aside a:hover {text-decoration:underline;}
+#sidebar aside#facebook {padding:0; border:0;}
+#sidebar aside#hunstantonWind p {font-weight:bold; margin:0;}
+#sidebar aside#hunstantonWind a {background:#fff url(../img/hunstantonWind.png) left no-repeat; height:67px;}
+#sidebar aside#music-next-up h3 a {background:#fff url(../img/aside-music-header.png) center no-repeat; height:52px;}
+#sidebar aside#music-next-up dl {color:#333;text-transform:uppercase;text-align:center;font-size:20px;padding:0 22px;}
+#sidebar aside#music-next-up dt {border-top:1px solid #000; padding-top:16px;}
+#sidebar aside#music-next-up dd {margin:0 0 16px;}
+
+
+/* Nav */
+nav ul {width:710px; margin:0 auto; overflow:hidden;}
+nav ul li {float:left; margin:0 2px;}
+nav ul li a {background: url(/img/nav.png) no-repeat top left;}
+nav ul li.home a{ background-position: 0 -357px; width: 156px; height: 69px; } 
+nav ul li.home a:hover, body.home nav ul li.home a{ background-position: 0 -238px; width: 156px; height: 69px; } 
+nav ul li.music a{ background-position: 0 -833px; width: 126px; height: 69px; } 
+nav ul li.music a:hover, body.music nav ul li.music a{ background-position: 0 -714px; width: 126px; height: 69px; }
+nav ul li.menu a{ background-position: 0 -595px; width: 215px; height: 69px; } 
+nav ul li.menu a:hover, body.menu nav ul li.menu a { background-position: 0 -476px; width: 215px; height: 69px; }
+nav ul li.contact a { background-position: 0 -119px; width: 195px; height: 69px; } 
+nav ul li.contact a:hover, body.contact nav ul li.contact a{ background-position: 0 0; width: 195px; height: 69px; } 
+
+
+/* main */
+#main {width:632px; float:left;}
+#main h2 {font-size:35px; text-transform:uppercase; margin:0;}
+#main p {font-size:17px; margin: 0 0 1em;}
+
+
+/* Footer */
+footer {margin:30px 0 15px; text-align:center; color:#444;}
+
+/* Home page */
+#home-photos {margin:5px 0 16px -12px;}
+
+
+/* Music page */
+#music-list dt {text-transform:uppercase; font-size:35px; line-height:1.1; border-top:1px solid #fff;margin:10px 0 0; padding:10px 0 0;}
+#music-list dd {margin:0; padding:0; font-size:20px; text-transform:uppercase;}
+#music-list dd ul {list-style:none; padding:0;}
+#music-list dd ul li { } 
+#music-list dd ul li p {font-size:17px; text-transform:none;}
+#music-list dd a {color:#000; text-decoration:none;}
+#music-list dd a:hover {text-decoration:underline;}
+#music-list dd a.more {background:url(../img/music-see-more.png) left no-repeat; padding-left:40px; display:none;}
+#music-list dd a.more:hover {background-image:url(../img/music-see-more-hover.png); color:#fff; text-decoration:none;}
+.pub-quiz-answers {margin-top:240px; font-size:80%;}
+.pub-quiz-answers h3 {font-weight:normal;}
+.pub-quiz-answers li strong {display:block; font-weight:normal; text-transform:uppercase;}
+
+/* Menu section */
+.menu h2 {margin:0;}
+.menu-2-cols { list-style:none; padding:0; margin:0 0 10px; overflow:hidden;}
+.menu-2-cols li {float:left; width:300px; margin-right:20px;}
+.menu-2-cols li.col-last {margin:0;}
+dl.menu-section {overflow:hidden;}
+dl.menu-section dt {float:left; width:220px; font-size:18px; text-transform:uppercase;}
+dl.menu-section dd {margin:0 0 18px; font-size:14px; clear:both; width:100%;}
+dl.menu-section dd.price {float:right; width:80px; clear:right; margin:0; text-align:right; font-size:18px;}
+
+
+/* Contact */
+.contact #main p {font-size:20px; text-transform:uppercase;}
+.contact address {white-space:pre-line; font-size:20px; text-transform:uppercase; font-style:normal; margin:0 0 20px;}
+

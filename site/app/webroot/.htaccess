@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+
+
+
+
+
+    RewriteEngine On
+
+	# migration from old site
+	RewriteRule ^index\.htm$ / [R=permanent,L]
+	RewriteRule ^welcome\.htm$ / [R=permanent,L]
+	RewriteRule ^menu\.htm$ /menu [R=permanent,L]
+	RewriteRule ^contact\.htm$ /contact [R=permanent,L]
+
+	#cakePHP
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+
+
+</IfModule>

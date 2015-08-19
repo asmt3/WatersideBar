@@ -1,0 +1,6 @@
+/app/config/database
+/app/tmp
+/plugins
+/vendors
+
+!empty
