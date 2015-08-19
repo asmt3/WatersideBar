@@ -1,4 +1,4 @@
-/app/config/database
+/app/config/database.php
 /app/tmp
 /plugins
 /vendors
