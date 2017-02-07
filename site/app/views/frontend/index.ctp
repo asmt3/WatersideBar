@@ -6,8 +6,8 @@
 
 	$this->set('asides', array(
 		'facebook',
-		'music',
-		'hunstantonWind',
+		// 'music',
+		// 'hunstantonWind',
 	));
 
 ?>
