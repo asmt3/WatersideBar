@@ -83,7 +83,7 @@
 			
 		</div> <!--#container-inner -->
 		<footer>
-			&copy; 2012 Waterside Bar | Development by <a href="http://www.projectmccoll.co.uk">Project McColl</a> | Design by <a href="http://designbiscuit.co.uk/">Design Biscuit</a>
+			&copy; <?php echo date('Y'); ?> Waterside Bar | Development by <a href="http://www.projectmccoll.co.uk">Project McColl</a> | Design by <a href="http://designbiscuit.co.uk/">Design Biscuit</a>
 	  </footer>
   </div> <!--#container-outer -->
 
