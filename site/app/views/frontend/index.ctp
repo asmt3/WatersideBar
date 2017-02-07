@@ -55,12 +55,6 @@
 	<a href="/music">Click here for full music listings</a>.
 </p>
 
-<h2>Saturday: Race Night</h2>
-<p>
-	And they're off! Every Saturday, one of our lovely bar staff plays the part of John McCririck, hosting a night of horse, dog and sometimes even hog racing! Bets are &pound; and the races begin at 9.00pm.
-</p>
-
-
 
 <h2>Sunday: Bandioke</h2>
 <p>
